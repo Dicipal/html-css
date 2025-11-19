@@ -1,0 +1,82 @@
+<style>
+  .amazon-link {
+    color: rgb(0, 113, 133);
+    transition: color 0.15s;
+  }
+
+  .amazon-link:hover {
+    color: coral;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .price {
+    color: rgb(0, 136, 0);
+    font-weight: bold;
+  }
+  
+  .cart-button {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 15px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .cart-button:hover {
+    background-color: rgb(237, 201, 19)
+  }
+
+  .cart-button:active {
+    background-color: rgba(203, 176, 37, 0.591)
+  }
+
+  .buy-button {
+    background-color: rgb(255, 164, 28);
+    border: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .buy-button:hover {
+    background-color: rgb(255, 140, 0);
+  }
+
+  .buy-button:active {
+    background-color: rgba(204, 102, 0, 0.616);
+  }
+</style>
+
+<a class="amazon-link"
+href="https://www.amazon.com " target="_blank">
+  Back to Amazon
+</a>
+
+<p class="title">
+  Nike Black Running Shoes
+</p>
+
+<p class="price">
+  $39 - in stock.
+</p>
+
+<p>
+  Free delivery tomorrow.
+</p>
+
+<button class="cart-button">
+Add to Cart
+</button>
+
+<button class="buy-button">
+  Buy Now
+</button>
