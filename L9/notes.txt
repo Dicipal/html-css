@@ -1,0 +1,6 @@
+<div> = division (div = just a box)
+<div> is a block element by default
+<div> can contain other elemtns (text, paragraphs, images etc)
+<div> = containers which allow us to group elements together
+block element = take up the entire line in their container
+inline-block element = only takes up as much space as needed
