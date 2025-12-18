@@ -1,0 +1,3 @@
+block element - takes up the entire line Ex: Paragaraphs
+inline-block element - only takes up as much space as needed  Ex: Img element & Input Element
+inline element - appear within a line of text  Ex: strong
